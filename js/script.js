@@ -1,10 +1,9 @@
 // function checkForSpam(message) {
 //   let result;
-//   // Change code below this line
+
 //   const messageNormalized = message.toLowerCase();
 //   result = messageNormalized.includes('spam') || messageNormalized.includes('sale');
 
-//   // Change code above this line
 //   return result;
 // }
 
@@ -24,9 +23,9 @@
 
 // function splitMessage(message, delimeter) {
 //   let words;
-//   // Change code below this line
+
 //   words = message.split(delimeter);
-//   // Change code above this line
+
 //   return words;
 // }
 
@@ -37,7 +36,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 // function calculateEngravingPrice(message, pricePerWord) {
-//   // Change code below this line
+
 //   let words;
 //   let totalPrice = 0;
 //   words = message.split(' ');
@@ -45,7 +44,7 @@
 //     totalPrice += pricePerWord;
 //   }
 //   return totalPrice;
-//   // Change code above this line
+
 // }
 
 // console.log(calculateEngravingPrice('JavaScript is in my blood', 10));
@@ -78,7 +77,7 @@
 ////////////////////////////////////////////////////////////////////////////
 
 // function makeArray(firstArray, secondArray, maxLength) {
-//   // Change code below this line
+
 //   let fullArray;
 //   fullArray = firstArray.concat(secondArray);
 
@@ -86,7 +85,7 @@
 //   newArray = fullArray.slice(0, maxLength);
 
 //   return newArray;
-//   // Change code above this line
+
 // }
 
 // console.log(makeArray(['Mango', 'Poly'], ['Ajax', 'Chelsea'], 3));
@@ -99,14 +98,14 @@
 /////////////////////////////////////////////////////////////////////////////
 
 // function calculateTotal(number) {
-//   // Change code below this line
+
 //   let total = 0;
 //   for (i = 0; i <= number; i += 1) {
 //     total += i;
 //   }
 
 //   return total;
-//   // Change code above this line
+
 // }
 // console.log(calculateTotal(1));
 // console.log(calculateTotal(3));
@@ -118,11 +117,11 @@
 
 // function calculateTotalPrice(order) {
 //   let total = 0;
-//   // Change code below this line
+
 //   for (i = 0; i < order.length; i += 1) {
 //     total += order[i];
 //   }
-//   // Change code above this line
+
 //   return total;
 // }
 
@@ -133,7 +132,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 // function findLongestWord(string) {
-//   // Change code below this line
+
 //   let words;
 //   words = string.split(' ');
 
@@ -146,7 +145,7 @@
 //   }
 
 //   return longestWord;
-//   // Change code above this line
+
 // }
 
 // console.log(findLongestWord('The quick brown fox jumped over the lazy dog'));
@@ -157,12 +156,11 @@
 
 // function createArrayOfNumbers(min, max) {
 //   const numbers = [];
-//   // Change code below this line
+
 //   for (i = min; i <= max; i += 1) {
 //     numbers.push(i);
 //   }
 
-//   // Change code above this line
 //   return numbers;
 // }
 
@@ -173,7 +171,6 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 // function filterArray(numbers, value) {
-//   // Change code below this line
 
 //   const array = [];
 //   for (const number of numbers) {
@@ -184,7 +181,6 @@
 
 //   return array;
 
-//   // Change code above this line
 // }
 
 // console.log(filterArray([1, 2, 3, 4, 5], 3));
@@ -214,16 +210,56 @@
 
 ////////////////////////////////////////////////////////////////////////////////
 
-function filterArray(numbers, value) {
-  // Change code below this line
-  const filteredNumbers = [];
+// function filterArray(numbers, value) {
+//   const filteredNumbers = [];
 
-  for (number of numbers) {
-    if (number > value) {
-      filteredNumbers.push(number);
-    }
-  }
+//   for (number of numbers) {
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   }
 
-  return filteredNumbers;
-  // Change code above this line
-}
+//   return filteredNumbers;
+// }
+
+// console.log(filterArray([1, 2, 3, 4, 5], 3));
+
+///////////////////////////////////////////////////////////////////////////////////
+
+// function getEvenNumbers(start, end) {
+//   const numbers = [];
+
+//   for (i = start; i <= end; i += 1) {
+//     if (i % 2 === 0) {
+//       numbers.push(i);
+//     }
+//   }
+//   return numbers;
+
+// }
+
+// console.log(getEvenNumbers(2, 5));
+// console.log(getEvenNumbers(3, 11));
+// console.log(getEvenNumbers(6, 12));
+// console.log(getEvenNumbers(8, 8));
+// console.log(getEvenNumbers(7, 7));
+
+////////////////////////////////////////////////////////////////////////////////
+
+// function includes(array, value) {
+//   for (const arrayValue of array) {
+//     if (arrayValue === value) {
+//       return true;
+//     }
+//   }
+//   return false;
+// }
+
+// console.log(includes([1, 2, 3, 4, 5], 3));
+// console.log(includes([1, 2, 3, 4, 5], 17));
+// console.log(includes(['Earth', 'Mars', 'Venus', 'Jupiter', 'Saturn'], 'Jupiter'));
+// console.log(includes(['Earth', 'Mars', 'Venus', 'Jupiter', 'Saturn'], 'Uranus'));
+// console.log(includes(['apple', 'plum', 'pear', 'orange'], 'plum'));
+// console.log(includes(['apple', 'plum', 'pear', 'orange'], 'kiwi'));
+
+///////////////////////////////////////////////////////////////////////////////////////
